@@ -26,7 +26,7 @@ a { color: inherit; text-decoration: none; }
 a:hover { color: var(--fg); }
 :focus { outline: none; }
 :focus-visible { outline: 1px solid var(--fg); outline-offset: 4px; }
-img { display: block; max-width: 100%; height: auto; }
+img, video { display: block; max-width: 100%; height: auto; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* 言語切り替え：ja/en を両方持ち、片方を隠す */
